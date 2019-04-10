@@ -78,6 +78,11 @@ main {
     background-color: transparent;
 }
 
+.dairyBtn:focus, .meatBtn:focus, .veggieBtn:focus, .pantryBtn:focus, .seafoodBtn:focus, .fruitBtn:focus {
+    background-color: transparent;
+    border: 1px solid #FFAB00;
+}
+
 .category-content {
     background-color: #f9f9f9;
     margin-top: 10px;
@@ -127,6 +132,14 @@ main {
 
 .social {
     background-color: #FFAB00;
+}
+
+[type="checkbox"]:checked+span:not(.lever):before {
+    border-top: 2px solid transparent;
+    border-left: 2px solid transparent;
+    border-right: 2px solid #ffab00;
+    border-bottom: 2px solid #ffab00;
+
 }
 
 /* Recipe Section */
